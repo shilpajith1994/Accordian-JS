@@ -103,52 +103,48 @@ li {
   width: 86%; 
   margin: 0 auto;
 }
-/*=================================
-  Header styling starts here
-=================================*/
-
-
-
-
-
-
-/*=================================
-  Header styling ends here
-=================================*/  
 
 /*=================================
   main styling starts here
 =================================*/
+.details {
+    padding: 25px 20px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 50px 5%;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
 
+.accordian-item {
+  padding: 10px;
+  border-bottom: 1px solid #808080;
+  display: block;
+}
 
+.accordian-item:last-child { border-bottom:0; }
 
+.accordian::before {
+  padding-right: 10px;
+  color: #000;
+  content: "\f107";
+  font-family: "fontAwesome";
+  font-size: 18px;
+  text-indent: 0;
+  opacity: .9;
+  transition: .5s ease-in-out;
+}
 
+.accordian {
+  margin: 10px 0; 
+  color: #000;
+  font-weight: 600;
+  text-transform: uppercase;
+}
 
-
-
-
+.accordian:hover::before { content: "\f106"; }
+.para { display: none; }
+.active { display: block; }
 /*=================================
   main styling ends here
 =================================*/
 
-/*=================================
-  footer styling starts here
-=================================*/ 
-
-
-
-
-
-
-
- /*=================================
-  footer styling ends here
-=================================*/ 
-
-/*media query starts*/
-/*media query for 995px starts here*/
-@media only screen and (max-width: 995px) {
-
-
-
-}  
