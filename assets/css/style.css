@@ -123,17 +123,6 @@ li {
 
 .accordian-item:last-child { border-bottom:0; }
 
-.accordian::before {
-  padding-right: 10px;
-  color: #000;
-  content: "\f107";
-  font-family: "fontAwesome";
-  font-size: 18px;
-  text-indent: 0;
-  opacity: .9;
-  transition: .5s ease-in-out;
-}
-
 .accordian {
   margin: 10px 0; 
   color: #000;
@@ -141,8 +130,8 @@ li {
   text-transform: uppercase;
 }
 
-.accordian:hover::before { content: "\f106"; }
 .para { display: none; }
+.hide { display: none; }
 .active { display: block; }
 /*=================================
   main styling ends here
